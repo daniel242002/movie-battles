@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "workspaces": [
+        "backend",
+        "frontend"
+    ],
+    "scripts": {
+        "serve": "npm run dev --workspace=backend",
+        "dev": "npm run dev --workspace=frontend",
+        "install": "npm install"
+    },
+    "dependencies": {
+        "nodemailer": "^6.10.0"
+    }
+}
